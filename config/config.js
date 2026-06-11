@@ -9,20 +9,20 @@ require('dotenv').config(); // .env ফাইল থেকে ভ্যারি
 module.exports = {
     
     // --- 🤖 Telegram Bot Settings ---
-    BOT_TOKEN: process.env.BOT_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN', // আপনার টেলিগ্রাম বট টোকেন
+    BOT_TOKEN: process.env.BOT_TOKEN || '8600984479:AAFtkrYCx_WNnp8zK8I34LoifqAD-t7rfOE', // আপনার টেলিগ্রাম বট টোকেন
     
     // --- 👨‍💼 Admin Settings ---
     // যাদের Telegram ID এখানে দেওয়া থাকবে, শুধু তারাই এডমিন প্যানেল দেখতে পারবে এবং সব কন্ট্রোল করতে পারবে
     ADMIN_IDS: [
-        123456789,  // আপনার টেলিগ্রাম আইডি (এখানে নাম্বার দিবেন, স্ট্রিং না)
-        987654321   // অন্য কোনো এডমিনের আইডি (প্রয়োজন হলে দিন, না হলে মুছে দিন)
+        8248792819,  // আপনার টেলিগ্রাম আইডি (এখানে নাম্বার দিবেন, স্ট্রিং না)
+       // অন্য কোনো এডমিনের আইডি (প্রয়োজন হলে দিন, না হলে মুছে দিন)
     ],
 
     // --- 📊 Group Summary Settings ---
     // যে গ্রুপগুলোতে লাইভ সামারি মেসেজ আপডেট হবে (লক্ষ্য: সুপারগ্রুপের আইডি -১০০ দিয়ে শুরু হয়)
     GROUP_IDS: [
-        -1001234567890,  // আপনার মূল টেলিগ্রাম গ্রুপের আইডি
-        // -1009876543210  // আরও গ্রুপ থাকলে এখানে যোগ করতে পারেন
+        -1003194263389,  // আপনার মূল টেলিগ্রাম গ্রুপের আইডি
+        //   // আরও গ্রুপ থাকলে এখানে যোগ করতে পারেন
     ],
 
     // বট স্বয়ংক্রিয়ভাবে যে মেসেজগুলো এডিট করবে তাদের আইডি এখানে সেভ হবে (হাতে কিছু দিতে হবে না)
@@ -30,7 +30,7 @@ module.exports = {
 
     // --- 🗄️ Database Settings ---
     // MongoDB কানেকশন স্ট্রিং
-    MONGO_URI: process.env.MONGO_URI || 'mongodb://localhost:27017/telitask_pro',
+    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://mongodbpy_db_user:pPgtRKyHsm8GvJF2@cluster0.u2ft5ps.mongodb.net/?appName=Cluster0',
 
     // --- 💰 Earning & Withdraw Settings ---
     MIN_WITHDRAW_BDT: 100,     // bKash/Nagad এ মিনিমাম উইথড্র টাকার পরিমাণ
